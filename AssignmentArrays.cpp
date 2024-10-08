@@ -25,7 +25,8 @@ void generateoutput(int columns, int matrix[4][5]){
 				sparsematrix[0][k] = i;  
                 sparsematrix[1][k] = j;  
                 sparsematrix[2][k] = matrix[i][j];  
-                k++;  
+                k++;
+
 			}
 		 j++;
 		}
@@ -36,7 +37,8 @@ void generateoutput(int columns, int matrix[4][5]){
         for(int j=0; j<columns; j++)  
         {  
             cout<< sparsematrix[i][j];  
-            cout<<"\t"; 
+            cout<<"\t";
+
         }  
         cout<<"\n";  
     }  
